@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [artIDAppium.TestC]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="artIDAppium.TestC">
+        <methods>
+          <include name="nyTestPercent"/>
+          <include name="otherStatePercent"/>
+          <include name="californiaSubTotalsTest"/>
+          <include name="setUp"/>
+          <include name="nyTestSubTotal"/>
+          <include name="californiaPercentsTest"/>
+          <include name="otherStateTestSubTotal"/>
+          <include name="navigateToUrl"/>
+          <include name="californiaTotalsTest"/>
+          <include name="mnTestSubTotal"/>
+          <include name="mnTestTotal"/>
+          <include name="otherStateTestTotal"/>
+          <include name="tearDown"/>
+          <include name="mnTestPercent"/>
+          <include name="nyTestTotal"/>
+        </methods>
+      </class> <!-- artIDAppium.TestC -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [artIDAppium.TestC] -->

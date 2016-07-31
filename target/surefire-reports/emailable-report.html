@@ -1,0 +1,386 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.result,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.result td,table.result th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.result th {vertical-align:bottom}
+tr.param th {padding-left:1em;padding-right:1em}
+tr.param td {padding-left:.5em;padding-right:2em}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.result td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.result tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em">Command line test</td><td class="numi">3</td><td class="numi">3</td><td class="numi">0</td><td class="numi_attn">12</td><td class="numi">981.6 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="passed" id="summary">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr><th colspan="4">Command line test &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="12">artIDAppium.TestC</td><td><a href="#m1"><b>californiaTotalsTest</b>  </a></td><td class="numi">1</td><td>1469946198912</td><td class="numi">74028</td></tr><tr class="failedodd"><td><a href="#m2"><b>californiaSubTotalsTest</b>  </a></td><td class="numi">1</td><td>1469946274330</td><td class="numi">73841</td></tr><tr class="failedodd"><td><a href="#m3"><b>californiaPercentsTest</b>  </a></td><td class="numi">1</td><td>1469946349160</td><td class="numi">73664</td></tr><tr class="failedodd"><td><a href="#m4"><b>nyTestTotal</b>  </a></td><td class="numi">1</td><td>1469946424035</td><td class="numi">73466</td></tr><tr class="failedodd"><td><a href="#m5"><b>nyTestSubTotal</b>  </a></td><td class="numi">1</td><td>1469946498357</td><td class="numi">73548</td></tr><tr class="failedodd"><td><a href="#m6"><b>nyTestPercent</b>  </a></td><td class="numi">1</td><td>1469946574087</td><td class="numi">73807</td></tr><tr class="failedodd"><td><a href="#m7"><b>mnTestTotal</b>  </a></td><td class="numi">1</td><td>1469946649136</td><td class="numi">73855</td></tr><tr class="failedodd"><td><a href="#m8"><b>mnTestSubTotal</b>  </a></td><td class="numi">1</td><td>1469946724150</td><td class="numi">73918</td></tr><tr class="failedodd"><td><a href="#m9"><b>mnTestPercent</b>  </a></td><td class="numi">1</td><td>1469946798920</td><td class="numi">74121</td></tr><tr class="failedodd"><td><a href="#m10"><b>otherStateTestTotal</b>  </a></td><td class="numi">1</td><td>1469946874348</td><td class="numi">73427</td></tr><tr class="failedodd"><td><a href="#m11"><b>otherStateTestSubTotal</b>  </a></td><td class="numi">1</td><td>1469946948880</td><td class="numi">73312</td></tr><tr class="failedodd"><td><a href="#m12"><b>otherStatePercent</b>  </a></td><td class="numi">1</td><td>1469947023313</td><td class="numi">73376</td></tr>
+<tr><th colspan="4">Command line test &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="3">artIDAppium.TestC</td><td><a href="#m13"><b>titleAssetion</b>  </a></td><td class="numi">1</td><td>1469946190603</td><td class="numi">1175</td></tr><tr class="passedodd"><td><a href="#m14"><b>validateCheckoutButtonWithEmptyFields</b>  </a></td><td class="numi">1</td><td>1469946192413</td><td class="numi">1059</td></tr><tr class="passedodd"><td><a href="#m15"><b>validateMainItems</b>  </a></td><td class="numi">1</td><td>1469946194141</td><td class="numi">4128</td></tr>
+</table>
+<h1>Command line test</h1>
+<h2 id="m1">artIDAppium.TestC:otherStateTestTotal</h2>
+<div style="padding-left:3em">
+<p>Locator Strategy &apos;name&apos; is not supported for this session (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&apos;, time: &apos;2014-10-23 13:11:40&apos;
+System info: host: &apos;Mikhails-MacBook-Pro.local&apos;, ip: &apos;192.168.2.5&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.5&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities [{networkConnectionEnabled=false, databaseEnabled=false, deviceName=iPhone 6, platform=MAC, showIOSLog=true, desired={showIOSLog=true, platformVersion=9.3, browserName=safari, platformName=iOS, deviceName=iPhone 6}, platformVersion=9.3, webStorageEnabled=false, locationContextEnabled=false, browserName=safari, takesScreenshot=true, javascriptEnabled=true, platformName=iOS}]
+Session ID: b79e0da6-1e1e-4576-812d-7e06460ddde3</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+<br/>at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:180)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:425)
+<br/>at org.openqa.selenium.By$ByName.findElement(By.java:299)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+<br/>at artIDAppium.MainCl.selectStateValue(MainCl.java:88)
+<br/>at artIDAppium.MainCl.navigateToResultsPage(MainCl.java:82)
+<br/>at artIDAppium.TestC.otherStateTestTotal(TestC.java:128)
+<br/>34 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">artIDAppium.TestC:californiaPercentsTest</h2>
+<div style="padding-left:3em">
+<p>Locator Strategy &apos;name&apos; is not supported for this session (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&apos;, time: &apos;2014-10-23 13:11:40&apos;
+System info: host: &apos;Mikhails-MacBook-Pro.local&apos;, ip: &apos;192.168.2.5&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.5&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities [{networkConnectionEnabled=false, databaseEnabled=false, deviceName=iPhone 6, platform=MAC, showIOSLog=true, desired={showIOSLog=true, platformVersion=9.3, browserName=safari, platformName=iOS, deviceName=iPhone 6}, platformVersion=9.3, webStorageEnabled=false, locationContextEnabled=false, browserName=safari, takesScreenshot=true, javascriptEnabled=true, platformName=iOS}]
+Session ID: b79e0da6-1e1e-4576-812d-7e06460ddde3</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+<br/>at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:180)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:425)
+<br/>at org.openqa.selenium.By$ByName.findElement(By.java:299)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+<br/>at artIDAppium.MainCl.selectStateValue(MainCl.java:88)
+<br/>at artIDAppium.MainCl.navigateToResultsPage(MainCl.java:82)
+<br/>at artIDAppium.TestC.californiaPercentsTest(TestC.java:58)
+<br/>34 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">artIDAppium.TestC:nyTestPercent</h2>
+<div style="padding-left:3em">
+<p>Locator Strategy &apos;name&apos; is not supported for this session (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 5 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&apos;, time: &apos;2014-10-23 13:11:40&apos;
+System info: host: &apos;Mikhails-MacBook-Pro.local&apos;, ip: &apos;192.168.2.5&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.5&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities [{networkConnectionEnabled=false, databaseEnabled=false, deviceName=iPhone 6, platform=MAC, showIOSLog=true, desired={showIOSLog=true, platformVersion=9.3, browserName=safari, platformName=iOS, deviceName=iPhone 6}, platformVersion=9.3, webStorageEnabled=false, locationContextEnabled=false, browserName=safari, takesScreenshot=true, javascriptEnabled=true, platformName=iOS}]
+Session ID: b79e0da6-1e1e-4576-812d-7e06460ddde3</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+<br/>at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:180)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:425)
+<br/>at org.openqa.selenium.By$ByName.findElement(By.java:299)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+<br/>at artIDAppium.MainCl.selectStateValue(MainCl.java:88)
+<br/>at artIDAppium.MainCl.navigateToResultsPage(MainCl.java:82)
+<br/>at artIDAppium.TestC.nyTestPercent(TestC.java:88)
+<br/>34 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">artIDAppium.TestC:mnTestPercent</h2>
+<div style="padding-left:3em">
+<p>Locator Strategy &apos;name&apos; is not supported for this session (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 7 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&apos;, time: &apos;2014-10-23 13:11:40&apos;
+System info: host: &apos;Mikhails-MacBook-Pro.local&apos;, ip: &apos;192.168.2.5&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.5&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities [{networkConnectionEnabled=false, databaseEnabled=false, deviceName=iPhone 6, platform=MAC, showIOSLog=true, desired={showIOSLog=true, platformVersion=9.3, browserName=safari, platformName=iOS, deviceName=iPhone 6}, platformVersion=9.3, webStorageEnabled=false, locationContextEnabled=false, browserName=safari, takesScreenshot=true, javascriptEnabled=true, platformName=iOS}]
+Session ID: b79e0da6-1e1e-4576-812d-7e06460ddde3</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+<br/>at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:180)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:425)
+<br/>at org.openqa.selenium.By$ByName.findElement(By.java:299)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+<br/>at artIDAppium.MainCl.selectStateValue(MainCl.java:88)
+<br/>at artIDAppium.MainCl.navigateToResultsPage(MainCl.java:82)
+<br/>at artIDAppium.TestC.mnTestPercent(TestC.java:118)
+<br/>34 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">artIDAppium.TestC:nyTestSubTotal</h2>
+<div style="padding-left:3em">
+<p>Locator Strategy &apos;name&apos; is not supported for this session (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 5 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&apos;, time: &apos;2014-10-23 13:11:40&apos;
+System info: host: &apos;Mikhails-MacBook-Pro.local&apos;, ip: &apos;192.168.2.5&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.5&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities [{networkConnectionEnabled=false, databaseEnabled=false, deviceName=iPhone 6, platform=MAC, showIOSLog=true, desired={showIOSLog=true, platformVersion=9.3, browserName=safari, platformName=iOS, deviceName=iPhone 6}, platformVersion=9.3, webStorageEnabled=false, locationContextEnabled=false, browserName=safari, takesScreenshot=true, javascriptEnabled=true, platformName=iOS}]
+Session ID: b79e0da6-1e1e-4576-812d-7e06460ddde3</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+<br/>at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:180)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:425)
+<br/>at org.openqa.selenium.By$ByName.findElement(By.java:299)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+<br/>at artIDAppium.MainCl.selectStateValue(MainCl.java:88)
+<br/>at artIDAppium.MainCl.navigateToResultsPage(MainCl.java:82)
+<br/>at artIDAppium.TestC.nyTestSubTotal(TestC.java:78)
+<br/>34 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">artIDAppium.TestC:californiaSubTotalsTest</h2>
+<div style="padding-left:3em">
+<p>Locator Strategy &apos;name&apos; is not supported for this session (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 6 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&apos;, time: &apos;2014-10-23 13:11:40&apos;
+System info: host: &apos;Mikhails-MacBook-Pro.local&apos;, ip: &apos;192.168.2.5&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.5&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities [{networkConnectionEnabled=false, databaseEnabled=false, deviceName=iPhone 6, platform=MAC, showIOSLog=true, desired={showIOSLog=true, platformVersion=9.3, browserName=safari, platformName=iOS, deviceName=iPhone 6}, platformVersion=9.3, webStorageEnabled=false, locationContextEnabled=false, browserName=safari, takesScreenshot=true, javascriptEnabled=true, platformName=iOS}]
+Session ID: b79e0da6-1e1e-4576-812d-7e06460ddde3</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+<br/>at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:180)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:425)
+<br/>at org.openqa.selenium.By$ByName.findElement(By.java:299)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+<br/>at artIDAppium.MainCl.selectStateValue(MainCl.java:88)
+<br/>at artIDAppium.MainCl.navigateToResultsPage(MainCl.java:82)
+<br/>at artIDAppium.TestC.californiaSubTotalsTest(TestC.java:48)
+<br/>34 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m7">artIDAppium.TestC:nyTestTotal</h2>
+<div style="padding-left:3em">
+<p>Locator Strategy &apos;name&apos; is not supported for this session (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 5 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&apos;, time: &apos;2014-10-23 13:11:40&apos;
+System info: host: &apos;Mikhails-MacBook-Pro.local&apos;, ip: &apos;192.168.2.5&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.5&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities [{networkConnectionEnabled=false, databaseEnabled=false, deviceName=iPhone 6, platform=MAC, showIOSLog=true, desired={showIOSLog=true, platformVersion=9.3, browserName=safari, platformName=iOS, deviceName=iPhone 6}, platformVersion=9.3, webStorageEnabled=false, locationContextEnabled=false, browserName=safari, takesScreenshot=true, javascriptEnabled=true, platformName=iOS}]
+Session ID: b79e0da6-1e1e-4576-812d-7e06460ddde3</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+<br/>at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:180)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:425)
+<br/>at org.openqa.selenium.By$ByName.findElement(By.java:299)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+<br/>at artIDAppium.MainCl.selectStateValue(MainCl.java:88)
+<br/>at artIDAppium.MainCl.navigateToResultsPage(MainCl.java:82)
+<br/>at artIDAppium.TestC.nyTestTotal(TestC.java:68)
+<br/>34 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m8">artIDAppium.TestC:otherStateTestSubTotal</h2>
+<div style="padding-left:3em">
+<p>Locator Strategy &apos;name&apos; is not supported for this session (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&apos;, time: &apos;2014-10-23 13:11:40&apos;
+System info: host: &apos;Mikhails-MacBook-Pro.local&apos;, ip: &apos;192.168.2.5&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.5&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities [{networkConnectionEnabled=false, databaseEnabled=false, deviceName=iPhone 6, platform=MAC, showIOSLog=true, desired={showIOSLog=true, platformVersion=9.3, browserName=safari, platformName=iOS, deviceName=iPhone 6}, platformVersion=9.3, webStorageEnabled=false, locationContextEnabled=false, browserName=safari, takesScreenshot=true, javascriptEnabled=true, platformName=iOS}]
+Session ID: b79e0da6-1e1e-4576-812d-7e06460ddde3</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+<br/>at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:180)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:425)
+<br/>at org.openqa.selenium.By$ByName.findElement(By.java:299)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+<br/>at artIDAppium.MainCl.selectStateValue(MainCl.java:88)
+<br/>at artIDAppium.MainCl.navigateToResultsPage(MainCl.java:82)
+<br/>at artIDAppium.TestC.otherStateTestSubTotal(TestC.java:138)
+<br/>34 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m9">artIDAppium.TestC:californiaTotalsTest</h2>
+<div style="padding-left:3em">
+<p>Locator Strategy &apos;name&apos; is not supported for this session (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 6 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&apos;, time: &apos;2014-10-23 13:11:40&apos;
+System info: host: &apos;Mikhails-MacBook-Pro.local&apos;, ip: &apos;192.168.2.5&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.5&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities [{networkConnectionEnabled=false, databaseEnabled=false, deviceName=iPhone 6, platform=MAC, showIOSLog=true, desired={showIOSLog=true, platformVersion=9.3, browserName=safari, platformName=iOS, deviceName=iPhone 6}, platformVersion=9.3, webStorageEnabled=false, locationContextEnabled=false, browserName=safari, takesScreenshot=true, javascriptEnabled=true, platformName=iOS}]
+Session ID: b79e0da6-1e1e-4576-812d-7e06460ddde3</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+<br/>at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:180)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:425)
+<br/>at org.openqa.selenium.By$ByName.findElement(By.java:299)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+<br/>at artIDAppium.MainCl.selectStateValue(MainCl.java:88)
+<br/>at artIDAppium.MainCl.navigateToResultsPage(MainCl.java:82)
+<br/>at artIDAppium.TestC.californiaTotalsTest(TestC.java:38)
+<br/>34 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m10">artIDAppium.TestC:otherStatePercent</h2>
+<div style="padding-left:3em">
+<p>Locator Strategy &apos;name&apos; is not supported for this session (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&apos;, time: &apos;2014-10-23 13:11:40&apos;
+System info: host: &apos;Mikhails-MacBook-Pro.local&apos;, ip: &apos;192.168.2.5&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.5&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities [{networkConnectionEnabled=false, databaseEnabled=false, deviceName=iPhone 6, platform=MAC, showIOSLog=true, desired={showIOSLog=true, platformVersion=9.3, browserName=safari, platformName=iOS, deviceName=iPhone 6}, platformVersion=9.3, webStorageEnabled=false, locationContextEnabled=false, browserName=safari, takesScreenshot=true, javascriptEnabled=true, platformName=iOS}]
+Session ID: b79e0da6-1e1e-4576-812d-7e06460ddde3</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+<br/>at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:180)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:425)
+<br/>at org.openqa.selenium.By$ByName.findElement(By.java:299)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+<br/>at artIDAppium.MainCl.selectStateValue(MainCl.java:88)
+<br/>at artIDAppium.MainCl.navigateToResultsPage(MainCl.java:82)
+<br/>at artIDAppium.TestC.otherStatePercent(TestC.java:148)
+<br/>34 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m11">artIDAppium.TestC:mnTestSubTotal</h2>
+<div style="padding-left:3em">
+<p>Locator Strategy &apos;name&apos; is not supported for this session (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 6 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&apos;, time: &apos;2014-10-23 13:11:40&apos;
+System info: host: &apos;Mikhails-MacBook-Pro.local&apos;, ip: &apos;192.168.2.5&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.5&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities [{networkConnectionEnabled=false, databaseEnabled=false, deviceName=iPhone 6, platform=MAC, showIOSLog=true, desired={showIOSLog=true, platformVersion=9.3, browserName=safari, platformName=iOS, deviceName=iPhone 6}, platformVersion=9.3, webStorageEnabled=false, locationContextEnabled=false, browserName=safari, takesScreenshot=true, javascriptEnabled=true, platformName=iOS}]
+Session ID: b79e0da6-1e1e-4576-812d-7e06460ddde3</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+<br/>at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:180)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:425)
+<br/>at org.openqa.selenium.By$ByName.findElement(By.java:299)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+<br/>at artIDAppium.MainCl.selectStateValue(MainCl.java:88)
+<br/>at artIDAppium.MainCl.navigateToResultsPage(MainCl.java:82)
+<br/>at artIDAppium.TestC.mnTestSubTotal(TestC.java:108)
+<br/>34 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m12">artIDAppium.TestC:mnTestTotal</h2>
+<div style="padding-left:3em">
+<p>Locator Strategy &apos;name&apos; is not supported for this session (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 5 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&apos;, time: &apos;2014-10-23 13:11:40&apos;
+System info: host: &apos;Mikhails-MacBook-Pro.local&apos;, ip: &apos;192.168.2.5&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.5&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities [{networkConnectionEnabled=false, databaseEnabled=false, deviceName=iPhone 6, platform=MAC, showIOSLog=true, desired={showIOSLog=true, platformVersion=9.3, browserName=safari, platformName=iOS, deviceName=iPhone 6}, platformVersion=9.3, webStorageEnabled=false, locationContextEnabled=false, browserName=safari, takesScreenshot=true, javascriptEnabled=true, platformName=iOS}]
+Session ID: b79e0da6-1e1e-4576-812d-7e06460ddde3</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+<br/>at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:180)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:425)
+<br/>at org.openqa.selenium.By$ByName.findElement(By.java:299)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+<br/>at artIDAppium.MainCl.selectStateValue(MainCl.java:88)
+<br/>at artIDAppium.MainCl.navigateToResultsPage(MainCl.java:82)
+<br/>at artIDAppium.TestC.mnTestTotal(TestC.java:98)
+<br/>34 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m13">artIDAppium.TestC:titleAssetion</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m14">artIDAppium.TestC:validateMainItems</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m15">artIDAppium.TestC:validateCheckoutButtonWithEmptyFields</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>
